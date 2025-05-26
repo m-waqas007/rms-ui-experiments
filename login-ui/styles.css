@@ -151,10 +151,10 @@ body {
 }
 
 .logo {
+  width: 150px;
+  height: 100px;
   position: relative;
   z-index: 2;
-  font-size: 4rem;
-  font-weight: 900;
   margin-bottom: 30px;
   background: linear-gradient(45deg, #fff, #64b5f6);
   -webkit-background-clip: text;
@@ -390,8 +390,3 @@ body {
     transform: rotate(360deg);
   }
 }
-
-.logo {
-    width: 150px;
-    height: 100px;
-  }
