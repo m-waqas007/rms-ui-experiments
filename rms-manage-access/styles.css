@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-  padding: 24px;
+  padding: 28px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -37,7 +37,7 @@ body {
 .logo-icon {
   width: 32px;
   height: 32px;
-  background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(45deg, #0362b5 0%, #00f2fe 100%);
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -94,7 +94,7 @@ body {
 
 .main-content {
   flex: 1;
-  background: white;
+  background: #f3f0ec;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
@@ -103,8 +103,11 @@ body {
 
 .header {
   background: #1a1d29;
-  color: white;
-  padding: 32px;
+  /* background-color: rgb(255, 247, 247); */
+  background-color: #f5f3f1;
+  /* color: white; */
+  color: black;
+  padding: 12px 32px;
   position: relative;
   overflow: hidden;
 }
@@ -213,23 +216,40 @@ body {
 }
 
 .role-badge.member {
-  background: linear-gradient(45deg, #48bb78, #38a169);
+  /* background: linear-gradient(45deg, #48bb78, #38a169); */
   color: white;
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #166534;
+  font-weight: bold;
 }
 
 .role-badge.admin {
-  background: linear-gradient(45deg, #ed8936, #dd6b20);
-  color: white;
+  /* background: linear-gradient(45deg, #ed8936, #dd6b20); */
+  /* color: white; */
+
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #166534;
+  font-weight: bold;
 }
 
 .role-badge.manager {
-  background: linear-gradient(45deg, #4299e1, #3182ce);
-  color: white;
+  /* background: linear-gradient(45deg, #4299e1, #3182ce); */
+  /* color: white; */
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #166534;
+  font-weight: bold;
 }
 
 .role-badge.hod {
-  background: linear-gradient(45deg, #9f7aea, #805ad5);
-  color: white;
+  /* background: linear-gradient(45deg, #9f7aea, #805ad5); */
+  /* color: white; */
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #166534;
+  font-weight: bold;
 }
 
 .role-badge:hover {
@@ -269,7 +289,8 @@ body {
 }
 
 .dropdown-search:focus {
-  border-bottom-color: #4facfe;
+  /* border-bottom-color: #4facfe; */
+  border-bottom-color: #166534;
   background: white;
 }
 
@@ -298,7 +319,8 @@ body {
 
 .dropdown-option:hover {
   background: #f7fafc;
-  color: #4facfe;
+  /* color: #4facfe; */
+  color: #166534;
 }
 
 .dropdown-option:last-child {
@@ -369,11 +391,14 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
+  /* background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%); */
+  /* background-color: #166534; */
+  border: 1px solid #166534;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  /* color: white; */
+  color: black;
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 12px;
